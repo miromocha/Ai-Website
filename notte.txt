@@ -1,2 +1,2 @@
 <a href="amazon_link">
-        <img src="Image_link" alt="Product">
+        <img src="Image_link" alt="Product">    
