@@ -1,65 +1,63 @@
-/* styles.css */
 body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-}
-
-
-header {
-    background-color: #B18F6A; /* Set the background color */border-radius: 10px; /* Create smooth rounded edges */
+  }
+  
+  header {
+    background-color: #B18F6A;
+    border-radius: 10px;
     padding: 20px;
     box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.3);
-}
-
-header {
-    position: fixed; /* Fix the header at the top */
-    top: 0; /* Position it at the top of the viewport */
-    left: 0; /* Extend it to the full width */
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    z-index: 100; /* Ensure it stays above other content */
-    padding: 20px 0; 
-}
-.header-content {
-    text-align: center; /* Center all content within */
-}
-
-h1 {
-    font-family: 'Forte', sans-serif; /* Set font family */
-}
-.rounded-h1 {
-    
-    border-radius: 10px; /* Adjust this value for desired roundness */
-    padding: 2px 10px; /* Adjust padding to avoid cutting into text */
-    background-color: #fff; /* Optional: set a contrasting background */
-    width: fit-content;
-    margin: 0 auto;
-}
-.rounded-h1 {
+    z-index: 100;
+    padding: 20px 0;
+  }
+  
+  .header-content {
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: 'Forte', sans-serif;
+  }
+  
+  .rounded-h1 {
     border-radius: 10px;
     border: 7px solid black;
     padding: 20px;
     background-color: transparent;
-}
-img {
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2); /* Drop shadow */
-    margin: 20px 0
-}
-.header-content {
-    display: flex;
-    align-items: center; /* Vertically align content */
-    justify-content: space-between; /* Distribute content with spacing */
   }
+  
   img {
-    position: relative;
-    top: 150px;
-    left: 20px; /* Adjust as needed */
+    border-radius: 10px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+    max-width: 300px; /* Set container width here */
   }
-  img {
-    width: 250px;
-    height: 200px;
-padding: 15px;
+  
+  
+  .product-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 7px;
+    padding: 20px;
   }
-
+  
+  .product-name {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+    color: #B18F6A;
+    text-align: center;
+    padding: 10px 0;
+    display: block;
+    z-index: 1;
+  }
+  
+  .product-container a:hover img {
+    transform: scale(1.1);
+  }
   
