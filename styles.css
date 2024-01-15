@@ -18,6 +18,7 @@ body {
       display: grid;
       place-items: center; 
       margin-bottom: 146px; /* Adjust value as needed */
+      margin-top: -16px;
        
   }
   
